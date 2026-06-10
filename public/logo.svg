@@ -1,0 +1,13 @@
+<svg width="640" height="180" viewBox="0 0 640 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="180" rx="36" fill="#08111F"/>
+  <g transform="translate(24 24)">
+    <rect width="132" height="132" rx="34" fill="#0F172A" stroke="#F5B640" stroke-width="8"/>
+    <circle cx="66" cy="56" r="28" fill="#F5B640"/>
+    <circle cx="66" cy="56" r="11" fill="#08111F"/>
+    <rect x="40" y="94" width="52" height="10" rx="5" fill="#E2E8F0"/>
+    <rect x="48" y="112" width="36" height="8" rx="4" fill="#94A3B8"/>
+    <path d="M42 42H90" stroke="#08111F" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <text x="184" y="80" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="0.04em">OLIA INTERNATIONAL</text>
+  <text x="184" y="118" fill="#F5B640" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" letter-spacing="0.18em">INDUSTRIAL WASHING MACHINES</text>
+</svg>
