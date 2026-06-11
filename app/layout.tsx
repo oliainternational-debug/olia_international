@@ -16,21 +16,50 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Olia International | Industrial Washing Machines",
+  title: "Olia International | Industrial Washing Machines Manufacturer",
   description:
-    "Manufacturers of industrial washing machines for laundries, hotels, hospitals, and garment units. View product photos, factory details, and contact information.",
+    "Premium industrial washing machine manufacturer in Delhi. Factory-direct supply of front-loading washers, washer extractors, hydro extractors, and drying tumblers for hotels, hospitals, laundries, and garment facilities.",
+  keywords: [
+    "industrial washing machines",
+    "commercial laundry equipment",
+    "washing machine manufacturer",
+    "washer extractor",
+    "industrial dryer",
+    "laundry machinery",
+    "hotel laundry equipment",
+    "hospital washing machines",
+  ],
+  authors: [{ name: "Olia International" }],
+  creator: "Olia International",
   openGraph: {
     type: "website",
     siteName: "Olia International",
-    title: "Olia International | Industrial Washing Machines",
+    locale: "en_IN",
+    title: "Olia International | Industrial Washing Machines Manufacturer",
     description:
-      "Manufacturers of industrial washing machines for laundries, hotels, hospitals, and garment units. View product photos, factory details, and contact information.",
+      "Premium industrial washing machine manufacturer in Delhi. Factory-direct supply of front-loading washers, washer extractors, hydro extractors, and drying tumblers.",
+    images: [
+      {
+        url: "/images/four.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Industrial washing machine",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Olia International | Industrial Washing Machines",
     description:
-      "Manufacturers of industrial washing machines for laundries, hotels, hospitals, and garment units. View product photos, factory details, and contact information.",
+      "Premium industrial washing machine manufacturer in Delhi. Factory-direct supply of commercial laundry equipment.",
+    images: ["/images/four.jpeg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1,
   },
 };
 
