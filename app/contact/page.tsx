@@ -114,7 +114,7 @@ export default function ContactPage() {
           <div className="grid gap-6">
             <div className="relative overflow-hidden rounded-4xl border border-white/10 bg-slate-900 shadow-2xl shadow-black/30">
               <Image
-                src="/images/industrial-wash-2.jpg"
+                src="/images/two.jpeg"
                 alt="Industrial laundry machinery"
                 width={1400}
                 height={900}

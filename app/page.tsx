@@ -9,15 +9,15 @@ const highlights = [
 
 const gallery = [
   {
-    src: "/images/industrial-wash-1.jpg",
+    src: "/images/two.jpeg",
     alt: "Industrial washing machine inside a factory",
   },
   {
-    src: "/images/industrial-wash-2.jpg",
+    src: "/images/three.jpeg",
     alt: "Heavy duty laundry machinery in a production setting",
   },
   {
-    src: "/images/industrial-wash-3.jpg",
+    src: "/images/one.jpeg",
     alt: "Clean industrial equipment with a premium finish",
   },
 ];
@@ -109,7 +109,7 @@ export default function Home() {
           <div className="relative overflow-hidden rounded-4xl border border-white/10 bg-slate-900 shadow-2xl shadow-black/30">
             <div className="absolute inset-0 bg-linear-to-t from-slate-950 via-transparent to-transparent" />
             <Image
-              src="/images/industrial-wash-1.jpg"
+              src="/images/two.jpeg"
               alt="Industrial washing machine hero"
               fill
               priority
