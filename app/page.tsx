@@ -17,7 +17,7 @@ const gallery = [
     alt: "Heavy duty laundry machinery in a production setting",
   },
   {
-    src: "/images/one.jpeg",
+    src: "/images/five.jpeg",
     alt: "Clean industrial equipment with a premium finish",
   },
 ];

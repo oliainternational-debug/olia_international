@@ -4,7 +4,7 @@ import Link from "next/link";
 const factoryDetails = [
   {
     label: "Factory Location",
-    value: "KH. NO. 154/417 POOTH KHURD VILL. BAWANA, DELHI- 110039",
+    value: "KH. NO. 154/719 POOTH KHURD VILL. BAWANA, DELHI- 110039",
   },
   {
     label: "Contact Number",
@@ -114,7 +114,7 @@ export default function ContactPage() {
           <div className="grid gap-6">
             <div className="relative overflow-hidden rounded-4xl border border-white/10 bg-slate-900 shadow-2xl shadow-black/30">
               <Image
-                src="/images/two.jpeg"
+                src="/images/four.jpeg"
                 alt="Industrial laundry machinery"
                 width={1400}
                 height={900}
