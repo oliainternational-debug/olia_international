@@ -4,15 +4,15 @@ import Link from "next/link";
 const factoryDetails = [
   {
     label: "Factory Location",
-    value: "[Add your factory address here]",
+    value: "KH. NO. 154/417 POOTH KHURD VILL. BAWANA, DELHI- 110039",
   },
   {
     label: "Contact Number",
-    value: "+91 98XXXXXX12",
+    value: "+91 9911911242",
   },
   {
     label: "GST Number",
-    value: "[GSTIN to be updated]",
+    value: "07CKIPM1281P1ZM",
   },
   {
     label: "Email",
@@ -75,13 +75,13 @@ export default function ContactPage() {
               Reach us
             </p>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-              Factory contact info you can update later.
+              Factory contact info.
             </h2>
-            <p className="mt-4 max-w-xl text-sm leading-7 text-slate-300 sm:text-base">
+            {/* <p className="mt-4 max-w-xl text-sm leading-7 text-slate-300 sm:text-base">
               This page is set up for your location, phone, GST, and email details.
               Replace the placeholder values with your final business information
               when you are ready.
-            </p>
+            </p> */}
 
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
               {factoryDetails.map((item) => (
@@ -100,8 +100,11 @@ export default function ContactPage() {
             </div>
 
             <div className="mt-6 rounded-2xl border border-amber-400/20 bg-amber-400/10 p-4 text-sm leading-7 text-amber-50">
-              Email any inquiry to{' '}
-              <a className="font-semibold underline decoration-amber-200/70 underline-offset-4" href="mailto:oliainternational@gmail.com">
+              Email any inquiry to{" "}
+              <a
+                className="font-semibold underline decoration-amber-200/70 underline-offset-4"
+                href="mailto:oliainternational@gmail.com"
+              >
                 oliainternational@gmail.com
               </a>
               .
@@ -131,13 +134,44 @@ export default function ContactPage() {
             </div>
 
             <div className="rounded-[1.75rem] border border-white/10 bg-white/5 p-5 text-sm leading-7 text-slate-300 sm:p-6">
-              <p className="text-xs font-semibold uppercase tracking-[0.32em] text-amber-200">
+              {/* <p className="text-xs font-semibold uppercase tracking-[0.32em] text-amber-200">
                 Note
-              </p>
-              <p className="mt-3">
-                If you want, you can later add a Google Maps embed, a WhatsApp button,
-                or a simple enquiry form here without changing the overall layout.
-              </p>
+              </p> */}
+              {/* <p className="mt-3">
+                If you want, you can later add a Google Maps embed, a WhatsApp
+                button, or a simple enquiry form here without changing the
+                overall layout.
+              </p> */}
+              {/* <div className="mt-3">
+                <a
+                  href="https://maps.google.com/?q=28.774181,77.055229"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
+                >
+                  View Location on Google Maps
+                </a>
+              </div> */}
+              <div className="mt-3">
+                <a
+                  href="https://maps.google.com/?q=28.774181,77.055229"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block overflow-hidden rounded-lg border hover:shadow-lg transition"
+                >
+                  <iframe
+                    src="https://www.google.com/maps?q=28.774181,77.055229&z=15&output=embed"
+                    width="100%"
+                    height="300"
+                    style={{ border: 0 }}
+                    loading="lazy"
+                    title="Location Map"
+                  />
+                  <div className="p-3 text-center font-medium">
+                    Open in Google Maps →
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </section>
